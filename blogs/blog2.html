@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+    <link rel="stylesheet" href="blog2.css">
+</head>
+<body>
+
+    <div class="blog-container">
+        <h1>Blog 2</h1>
+        
+        <div class="blog-content">
+            <p>This is the content of Blog 2. LOL!</p>
+        </div>
+
+        <div class="interaction-section">
+            <button id="likeBtn">Like</button>
+            <span id="likeCount">0</span> Likes
+            <div id="commentsSection">
+                <textarea id="commentInput" placeholder="Add a comment..."></textarea>
+                <button onclick="addComment()">Add Comment</button>
+                <div id="commentsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="blog2.js"></script> 
+
+</body>
+</html>
